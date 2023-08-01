@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b961e91c9abe56b47b853c0e7664f3fa, type: 3}
+  m_Name: Microbe Global Parameters
+  m_EditorClassIdentifier: 
+  BaselineMaxHealth: 100
+  EnergyToHealthRatio: 1.5
+  MovementForce: 2500
+  RotationForce: 350
+  BackwardsForcePenalty: 0.6
+  BaselineEggCost: 35
+  MovingCost: 0.5
+  RotationCost: 0.25
+  Metabolism: 1
+  DamageFromOvereating: 0
+  BaselineMouthSize: 0.3
+  BaselineMutationProbability: 0.3
+  BasetineMutationIntensity: 0.4
+  Lifetime: 2
+  BaseMeatSize: 0.3
+  BiteCooldown: 1
+  AttackDamage: 40
+  AttackCost: 5
+  MaxDamageReduction: 0.75
+  MassPerDefence: 0.2
+  LinearDrag: 3
+  AngularDrag: 6
+  MassDensity: 5
+  EnergyDensity: 150
+  MutationProbability: 0.25
+  MutationIntensity: 0.35
+  BirthCost: 0.5
+  Speed: 1
+  RotationSpeed: 1
+  Size: 1
+  HatchTime: 15
+  TikTak: 1
+  RegenerationRate: 2
+  Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+  GrowthScale: 2
+  GrowthFactor: 2
+  GrowthExponent: 1
+  Defence: 0.1
